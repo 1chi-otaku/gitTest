@@ -4,7 +4,7 @@ class Master {
 	int a, b, c;
 public: 
 	Master() {
-		a = b = c = 1;
+		a = b = c = 0;
 	}
 	Master(int a, int b, int c) {
 		this->a = a;
