@@ -16,6 +16,16 @@ class Car {
 	string Engine;
 	string Fuel;
 	string Country;
+	Car() {
+		Engine = "N/A";
+		Fuel = "N/A";
+		Country = "N/A";
+	}
+	Car(string engine, string fuel, string country) {
+		Engine = engine;
+		Fuel = fuel;
+		Country = country;
+	}
 };
 int main() {
 	int a;
