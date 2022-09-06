@@ -12,6 +12,11 @@ public:
 		this->c = c;
 	}
 };
+class Car {
+	string Engine;
+	string Fuel;
+	string Country;
+};
 int main() {
 	int a;
 
